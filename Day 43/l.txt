@@ -1,0 +1,9 @@
+Coding problem: DREDIV
+https://www.codechef.com/LTIME92C/problems/DREDIV
+
+Below two solution are from p_sai_vamsi, praveen_vk:
+
+1. [p_sai_vamsi] https://www.codechef.com/viewsolution/42098007
+2. [praveen_vk] https://www.codechef.com/viewsolution/42101404
+
+These two solutions used 'k' as an unique information to their advang 
