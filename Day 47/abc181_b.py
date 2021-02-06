@@ -1,0 +1,17 @@
+import sys
+
+sys.setrecursionlimit(10**7)
+
+def I(): return int(sys.stdin.readline().rstrip())
+def MI():return map(int, sys.stdin.readline().rstrip().split())
+def LI():return list(map(int, sys.stdin.readline().rstrip().split()))
+def LI2():return list(map(int, sys.stdin.readline().rstrip()))
+def S():return sys.stdin.readline().rstrip()
+def LS():return list(sys.stdin.readline().rstrip().split())
+def LS2():return list(sys.stdin.readline().rstrip())
+
+res = 0
+for i in range(I()):
+	a, b = MI()
+	res += (b*(b+1))//2 - (a*(a-1))//2
+print(res)
